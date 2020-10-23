@@ -5,11 +5,13 @@ import MicIcon from '@material-ui/icons/Mic';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import { SearchOutlined, } from '@material-ui/icons';
 import AttachFileIcon from '@material-ui/icons/AttachFile';
+import { useParams } from "react-router-dom";
 import "./Chat.css";
 
 function Chat() {
  const [seed, setSeed] = useState("");
  const [input, setInput] = useState("")
+ const { roomid } = useParams();
 
 useEffect(() => {
     setSeed(Math.floor(Math.random() * 5000));
@@ -18,6 +20,7 @@ useEffect(() => {
 const sendMessage = (e) => {
     e.preventDefault();
     console.log("you typed >>> ", input)
+    setInput("");
 }
     return (
         <div className="chat">
@@ -29,7 +32,7 @@ const sendMessage = (e) => {
     <p>Last message..</p>
     </div>
 
-    <div className="sidebar_headerRight">
+    <div className="chat_headerRight">
    <IconButton>
    <SearchOutlined />
    </IconButton>

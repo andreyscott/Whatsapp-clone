@@ -81,12 +81,13 @@
     display: flex;
     justify-content: space-between;
     min-width: 100px;
+    margin-left: auto;
 }
 
 .chat_reciever {
     margin-left: auto;
     color: white;
-    background-color: #d;
+    background-color: rgb(68, 240, 68);
 }
 
 .chat_body {
