@@ -81,7 +81,6 @@
     display: flex;
     justify-content: space-between;
     min-width: 100px;
-    margin-left: auto;
 }
 
 .chat_reciever {
