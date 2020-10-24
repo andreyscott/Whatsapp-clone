@@ -7,6 +7,7 @@ import { SearchOutlined, } from '@material-ui/icons';
 import AttachFileIcon from '@material-ui/icons/AttachFile';
 import { useParams } from "react-router-dom";
 import "./Chat.css";
+import  "./SidebarChat";
 import db from './firebase';
 
 function Chat() {

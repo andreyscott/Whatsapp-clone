@@ -21,9 +21,6 @@ function Sidebar() {
             }))
           )
         );
-    return () => {
-        unsubscribe();
-    };
 }, []);
 
 
