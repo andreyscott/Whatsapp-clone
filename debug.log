@@ -1018,3 +1018,5 @@
 [1022/003615.179:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff857bf4978 of 48 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
 [1022/003615.179:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff857bf8ce0 of 40 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
 [1023/004736.267:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1027/195955.887:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Dennis\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\95829b49-9189-4212-8262-250efd502366: The system cannot find the path specified. (0x3)
+[1027/195955.929:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
